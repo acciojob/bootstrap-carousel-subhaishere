@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Bootstrap Carousel Example</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Carousel Indicators -->
+    <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+    </ol>
+    
+    <!-- Carousel Slides -->
+    <div class="carousel-inner">
+        <div class="carousel-item active first-slide">
+            <!-- Content for First Slide -->
+        </div>
+        <div class="carousel-item second-slide">
+            <!-- Content for Second Slide -->
+        </div>
+        <div class="carousel-item third-slide">
+            <!-- Content for Third Slide -->
+        </div>
+        <div class="carousel-item fourth-slide">
+            <!-- Content for Fourth Slide -->
+        </div>
+        <div class="carousel-item fifth-slide">
+            <!-- Content for Fifth Slide -->
+        </div>
+    </div>
+    
+    <!-- Left and Right Arrows -->
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
+<!-- Add Bootstrap JS and dependencies -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
