@@ -1,2 +1,30 @@
+.carousel-inner .item {
+  height: 400px;
+}
 
-/* Your CSS Code here. */
+.carousel-inner .item h3 {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.first-slide {
+  background-color: #808080;
+}
+
+.second-slide {
+  background-color: #808080;
+}
+
+.third-slide {
+  background-color: #808080;
+}
+
+.fourth-slide {
+  background-color: #808080;
+}
+
+.fifth-slide {
+  background-color: #808080;
+}
